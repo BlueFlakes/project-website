@@ -1,0 +1,21 @@
+
+.upper-bar {
+    display: flex;
+    position: fixed;
+    background-color: #f44168;
+
+    height: 6%;
+    justify-content: center;
+    align-items:center;
+
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.upper-bar h2 {
+    color: whitesmoke;
+}
+
+
+

@@ -1,0 +1,73 @@
+.page-content {
+    margin-left:15%;
+    margin-right: 15%;
+    padding: 3% 0%;
+}
+
+#main-page-my-face-photo {
+    padding: 0px 25px;
+}
+
+footer {
+    position: fixed;
+    bottom:0px;
+    height: 50px;
+
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 14.5%;
+
+    border-top:1px solid #b5a1ff;
+    background: white;
+
+}
+
+#footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+#contact-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.entry-home-page {
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.entry-left-side {
+    display: flex;
+    align-items:center;
+    align-content: flex-start;
+}
+
+.entry-right-side {
+    display: flex;
+    align-items:center;
+    align-content: flex-end;
+}
+
+.home-text-content {
+    display:flex;
+    flex-direction: column;
+    align-content: space-between;
+
+}
+
+.home-nav-to-author-prefs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nesteddiv {
+    padding: 125% 125%;
+}

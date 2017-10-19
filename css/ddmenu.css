@@ -1,0 +1,35 @@
+#menu ul {
+
+    list-style-type: none;
+    margin-top: 4%;
+    padding: 0;
+    width: 14%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 97%;
+    overflow: auto;
+}
+
+#menu li a {
+
+    width: 100%;
+    display: block;
+    color: #000;
+    padding: 10px 0px;
+
+    font-size: 125%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#menu li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#menu li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+
